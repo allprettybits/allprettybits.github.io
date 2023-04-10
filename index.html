@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap"
+    onload="this.onload=null;this.rel='stylesheet';">
+
+  <title>allprettybits on GitHub</title>
+
+  <meta name="description" content="allprettybits on GitHub">
+  <meta name="author" content="allprettybits">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#B83D72">
+
+  <meta property="og:title" content="allprettybits on GitHub">
+  <meta property="og:description" content="description">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/watermelon.svg">
+
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <main>
+
+    <h1>
+      <img src="assets/allprettybits.svg" alt="allprettybits" aria-label="allprettybits" width="92" height="40">
+      on GitHub
+    </h1>
+
+    <p>
+      At <a href="https://allprettybits.com/" rel="noopener" target="_blank">allprettybits</a>, we strive to create
+      outstanding user experiences. From design, usability, and accessibiltiy to performance and privacy, everything
+      we do is carefully considered and executed. In order to be able to deliver an experience that matches our vision,
+      we create most of what you see in-house. And we are proud of achieving results like these to validate our efforts:
+    </p>
+
+    <div class="image-frame">
+      <figure class="image">
+        <img src="assets/lighthouse-desktop.png" width="640" height="830" loading="eager" alt="lighthouse desktop">
+        <figcaption>Lighthouse result for desktop.</figcaption>
+      </figure>
+      <figure class="image">
+        <img src="assets/lighthouse-mobile.png" width="640" height="830" loading="lazy" alt="lighthouse mobile">
+        <figcaption>Lighthouse result for mobile. (Slow 4G network throttling and 4x CPU slowdown)</figcaption>
+      </figure>
+    </div>
+
+    <p>
+      But, as much as we love to tinker, we obviously can't build <em>everything</em> ourselves. And thanks to the
+      incredible open source community, we don't have to. We want to thank and shout out to some of the amazing tools
+      we have built upon and also take the opportunity to give back some things we've built, that we think might be
+      useful in one way or another.
+    </p>
+
+    <section>
+      <h2>Tools we use</h2>
+
+      <p>
+        Here's a rundown of our favorite and most inexpendable tools. Most of them are open source and most of them
+        are free, which is pretty impressive and has a huge impact on what we're able to build:
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://www.11ty.dev/" rel="noopener" target="_blank">11ty</a>: A simpler (and faster) static site
+          generator.
+        </li>
+        <li>
+          <a href="https://lit.dev/" rel="noopener" target="_blank">Lit</a>: Simple. Fast. Web Components.
+        </li>
+        <li>
+          <a href="https://rollupjs.org/" rel="noopener" target="_blank">Rollup</a>: The JavaScript module bundler.
+        </li>
+        <li>
+          <a href="https://postcss.org/" rel="noopener" target="_blank">PostCSS</a>: A tool for transforming CSS with
+          JavaScript.
+        </li>
+        <li>
+          <a href="https://www.typescriptlang.org/" rel="noopener" target="_blank">TypeScript</a>: JavaScript with
+          syntax for types.
+        </li>
+        <li>
+          <a href="https://plausible.io/" rel="noopener" target="_blank">Plausible</a>: Easy to use and privacy-friendly
+          Google Analytics alternative.
+        </li>
+        <li>
+          <a href="https://figma.com" rel="noopener" target="_blank">Figma</a>: A collaborative interface design tool.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools we made</h2>
+
+      <h3>Structured Data Markup Generator for Rich Results</h3>
+
+      <p>
+        You have probably seen these rather fancy search results on Google, which provide you with instant access to
+        relevant data about your search, like recipe previews, user ratings, or FAQs related to your search.
+        Google calls these
+        <a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery" rel="noopener"
+          target="_blank">rich results</a>
+        and they are made possible by websites providing additional data about their content in the form of
+        <a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+          rel="noopener" target="_blank">structured data markup</a>.
+        According to Google, rich results can significantly improve the click-through rate for your pages by
+        providing more engaging and interactive search results.
+      </p>
+
+      <p>
+        Everyone can add this data to their website.
+        <a href="https://json-ld.org/" rel="noopener" target="_blank">JSON-LD</a>
+        is a great format for this, as it allows you to supply the data in a supplemental way, without changing the
+        content of your website. However, if you're not a technical person, creating and editing JSON files can seem a
+        little daunting at first. If you have never used a code editor, which can help you visualize the structure of
+        your JSON files, format and spot mistakes easily, you might be looking for an easier way to create structured
+        data markup.
+      </p>
+
+      <p>
+        For this reason, we created a simple
+        <a href="https://richresults.allprettybits.com/" rel="noopener" target="_blank">Structured Data Markup
+          Generator
+        </a> which you can use to easily create and download JSON files to add to your existing websites.
+      </p>
+
+      <div class="image">
+        <a href="https://richresults.allprettybits.com/" rel="noopener" target="_blank"
+          aria-label="structured data markup generator">
+          <img src="assets/richresults.png" width="576" height="620" loading="lazy"
+            alt="https://richresults.allprettybits.com/">
+        </a>
+      </div>
+
+      <p>
+        You can also check out the
+        <a href="https://github.com/allprettybits/google-structured-data-editor" rel="noopener" target="_blank">
+          repository on GitHub
+        </a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>More from allprettybits around the web</h2>
+      <p>
+        If you like what we're doing, feel free to follow us on social media and check out other places where we're at:
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/allprettybits" rel="noopener" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/allprettybits" rel="noopener" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/allprettybits" rel="noopener" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://pinterest.com/allprettybits" rel="noopener" target="_blank">Pinterest</a>
+        </li>
+        <li>
+          <a href="https://medium.com/@sanja.wende" rel="noopener" target="_blank">Medium</a>
+        </li>
+        <li>
+          <a href="https://linktr.ee/allprettybits" rel="noopener" target="_blank">Linktree</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+
+</html>
